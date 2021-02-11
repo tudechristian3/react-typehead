@@ -1,0 +1,38 @@
+
+.App {
+  text-align: center;
+  padding: 5%;
+}
+
+.typeahead {
+  /* position: relative; */
+  display: inline-block;
+}
+
+.typeahead-content {
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  min-width: 200px;
+}
+
+.typeahead-content-list {
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+}
+
+.typeahead-content-list-image {
+  padding: 2%;
+}
+
+.typeahead-content-list-name {
+  padding: 2%;
+}
+
+.typeahead-content-list:hover {
+  background-color: #d1cbcb;
+}
+
+.error-field {
+  color: rgb(241, 139, 139);
+}
